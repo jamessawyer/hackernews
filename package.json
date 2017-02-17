@@ -14,6 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "npm install -g pushstate-server && pushstate-server build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
