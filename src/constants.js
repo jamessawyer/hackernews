@@ -1,0 +1,10 @@
+// 下面APIS来自于hacker news 开发者api
+export const DEFAULT_QUERY = 'redux';
+export const DEFAULT_PAGE = 0;
+
+export const PATH_BASE = 'https://hn.algolia.com/api/v1';
+export const PATH_SEARCH = '/search';
+export const PARAM_SEARCH = 'query=';
+export const PARAM_PAGE = 'page=';
+
+// var url = `${PATH_BASE}${PATH_SEARCH}?${PARAM_SEARCH}${DEFAULT_QUERY}&{PARAM_PAGE}`;
